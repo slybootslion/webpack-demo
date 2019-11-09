@@ -1,0 +1,22 @@
+@import "./reset.scss";
+@import "./iconfont.scss";
+
+body {
+  .pic {
+    width: 50px;
+    height: 50px;
+  }
+  .pic_small {
+    transform: rotate(45deg) translate(32px, 23px);
+  }
+
+  /*为了让引用的字体图标可以显示的更清楚，我这里给这个字体图标加了个样式*/
+  .icon-xingzhuang {
+    font-size: 45px;
+  }
+  /*让创建出来的div变为红色，字号放大*/
+  .createdDiv {
+    color: #ccc;
+    font-size: 20px;
+  }
+}
